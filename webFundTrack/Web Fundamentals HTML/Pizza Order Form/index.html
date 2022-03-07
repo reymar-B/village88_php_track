@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Order Form</title>
+    <meta name="description" content="Pizza Order Form">
+</head>
+<body>
+    <h1>Pizza Order Form</h1>
+    <form method="post" action="#">
+        <label>
+            First Name: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <input type="text" id="firstName" name="firstName">
+        </label>
+        <br>
+        <label>
+            Last Name: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" id="lastName" name="lastName">
+        </label>
+        <br>
+        <label>
+            Email Address: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" id="email" name="email">
+        </label>
+        <br>
+        <label>
+            Contact Number: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" id="contact" name="contact">
+        </label>
+        <br>
+        <label>
+            Preferred Delevery Date: &nbsp;
+            <input type="date" id="date" name="date">
+        </label>
+        <p> Size: </p>
+        <label>
+            <input type="radio" id="small" name="small" value="small"/>Small
+        </label>
+        <label>
+            <input type="radio" id="meduim" name="meduim" value="meduim"/>Meduim
+        </label>
+        <label>
+            <input type="radio" id="large" name="large" value="large"/>Large
+        </label>
+        <p> Flavor: </p>
+        <label>
+            <input type="checkbox" id="hawaiian" name="hawaiian">
+        </label>
+        <label>
+            Hawaiian ( Php 150.00 )
+            <select name="hawaiian">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="pepperoni" name="pepperoni">
+        </label>
+        <label>
+            Pepperoni ( Php 140.00 )
+            <select name="pepperoni">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="vegetable" name="vegetable">
+        </label>
+        <label>
+            Vegetable ( Php 120.00 )
+            <select name="vegetable">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <label>
+            Credit Card: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" id="creditCard" name="creditCard"/>
+        </label>
+        <br>
+        <label>
+            PIN: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" id="pin" name="pin"/>
+        </label>
+        <br>
+        <p>Additional Note:</p>
+        <textarea name="addNote" id="addNote" cols="42" rows="5"></textarea>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

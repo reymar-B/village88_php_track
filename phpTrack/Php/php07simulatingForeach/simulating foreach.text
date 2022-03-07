@@ -1,0 +1,55 @@
+(01) 
+0 - 2
+1 - 4
+2 - 6
+3 - 8
+
+(02)
+2
+4
+6
+8
+
+(03)
+A - Apple
+B - Banana
+
+(04)
+Apple
+Banana
+
+(05)
+A
+B
+
+(06)
+Key is 0
+logging the valuearray(3) { [0]=> string(2) "a1" [1]=> string(2) "a2" [2]=> string(2) "a3" } 
+Key is 1
+logging the valuearray(3) { [0]=> string(2) "b1" [1]=> string(2) "b2" [2]=> string(2) "b3" } 
+Key is 2
+logging the valuearray(3) { [0]=> string(2) "c1" [1]=> string(2) "c2" [2]=> string(2) "c3" }
+
+(07)
+logging the valuearray(3) { [0]=> string(2) "a1" [1]=> string(2) "a2" [2]=> string(2) "a3" } 
+logging the valuearray(3) { [0]=> string(2) "b1" [1]=> string(2) "b2" [2]=> string(2) "b3" } 
+logging the valuearray(3) { [0]=> string(2) "c1" [1]=> string(2) "c2" [2]=> string(2) "c3" }
+
+(08)
+key is 0
+PH - Philippines
+KR - South Korea
+key is 1
+PHP - Philippine peso
+KRW - South Korean won
+key is 2
+Manila - Maynilad
+Seoul - Seorabeol
+
+(09)
+PH - Philippines
+KR - South Korea
+PHP - Philippine peso
+KRW - South Korean won
+Manila - Maynilad
+Seoul - Seorabeol

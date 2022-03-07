@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.show_form
+{
+    display: block;
+}
+
+.hide_form
+{
+    display: none;
+}
+
+.container
+{
+    background-color: antiquewhite;
+    padding: 2% 10%;
+    min-height: 900px;
+}
+
+    .container .head
+    {
+        padding: 1em 0;
+        border-bottom: 5px solid black;
+    }
+
+    .container .head h2
+    {
+        display: inline-block;
+        font-size: 2em;
+        color: blueviolet;
+    }
+
+    .container .head p
+    {
+        display: inline-block;
+        position: relative;
+        left: 65%;
+        font-size: 18px;
+    }
+
+    .container .head p span
+    {
+        font-size: 24px;
+        padding: 0 5px;
+        color: blueviolet;
+    }
+
+    .container .head a
+    {
+        position: relative;
+        left: 70%;
+        text-decoration: none;
+        font-size: 24px;
+        color: blue;
+        font-weight: bold;
+    }
+
+.blog_title
+{
+    margin: 1.5em 0;
+    color: blueviolet;
+}
+
+.blog_content
+{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(37, 37, 37);
+}
+
+h2
+{
+    margin: 1em 0;
+    color: rgb(0, 82, 82);
+}
+
+.review_form textarea,input
+{
+    display: block;
+    padding: 10px;
+    margin: 0.5em 0;
+    font-size: 18px;
+}
+
+    .review_form textarea
+    {
+        height: 4em;
+        width: 100%;
+    }
+
+    .review_form input
+    {
+        position: relative;
+        left: 90%;
+        background-color: blue;
+        font-weight: bold;
+        color: white;
+    }
+
+.review_title
+{
+    margin: 1em 0;
+    color: rgb(0, 82, 82);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.review_content
+{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.reply
+{
+    padding: .5em 0 .5em 10em;
+}
+
+    .reply textarea
+    {
+        height: 4em;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .reply input
+    {
+        padding: 10px;
+        position: relative;
+        left: 90%;
+        padding: 2px 15px;
+        font-weight: bold;
+        background-color: green;
+        color: white;
+    }
+
+.reply_title
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.reply_msg
+{
+    font-size: 18px;
+}

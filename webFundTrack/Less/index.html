@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Php_documentation_css_best_practices">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/">
+    <link rel="stylesheet/less" href="style.less">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/4.1.2/less.min.js" integrity="sha512-eXBn7AaMbUOWb3PSDhwcjByoM89FeO1SF9Jww6kqPYQkBrGZvqAKFbtqLHh5O95rYA/AOtWZ0QRO2S6rP+KsUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>PHP Documentaion</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="navigation">
+                <img src="img/logo_php.svg" alt="php_logo">
+                <a href="#">downloads</a>
+                <a class="active" href="#index.html">documentation</a>
+                <a href="#">get involved</a>
+                <a href="#">help</a>
+                <img src="img/logo_php8.svg" alt="second_php_logo">
+                <form action="#" method="get">
+                    <input type="search" value="search">
+                </form>
+            </div>
+            <div class="first_side">
+                <a href="#">PHP Manual</a>
+                <img src="img/chevron.png" alt="chevron_single_right">
+                <a href="#">getting started</a>
+            </div>
+            <div class="second_side">
+                <img src="img/chevron.png" alt="chevron_left">
+                <a href="#">What can PHP do?</a>
+                <a href="#">what do I need</a>
+                <img src="img/chevron.png" alt="chevron_right">
+            </div>
+        </header>
+        <div class="main">
+            <div class="main_content">
+                <div class="report_bug">
+                    <form action="#" method="get">
+                        <label>
+                            Change Language
+                            <select class="language">
+                                <option value="english">English</option>
+                                <option value="mandarin">Mandarin</option>
+                                <option value="japanese">Japanese</option>
+                            </select>
+                        </label>
+                    </form>
+                    <a href="#">submit a pull request</a>
+                    <a href="#">report a bug</a>
+                </div>
+                <p class="title">A simple tutorial</p>
+                <p class="title">Table of Contents</p>
+                <ul>
+                    <li><a href="#">What do I need?</a></li>
+                    <li><a href="#">Your firsy PHP enabled page</a></li>
+                    <li><a href="#">Something Useful</a></li>
+                    <li><a href="#">Dealing with Forms</a></li>
+                    <li><a href="#">What's Next</a></li>
+                </ul>
+                <p class="overview">Here we would like to show the very basics of PHP in a short, simple tutorial. This text only deal 
+                    with dynamic web page creation with PHP, though PHP is not only capable of creating a web pages see 
+                    section titled <a href="#">What can PHP do</a> for more information.</p>
+                <p  class="overview">PHP enabled web pages are treated just like regular HTML web pages and you can create and edit them 
+                    the same way you normally create regular HTML pages</p>
+                <div class="user_notes">
+                    <p>user contributed notes</p>
+                    <a href="#"><img src="img/add.png" alt="plus_icon">add a note</a>
+                </div>
+                <p class="user_contributed">there are no user contributed notes for this page</p> 
+            </div>
+            <div class="aside">
+                <p>getting started</p>
+                <p>introduction</p>
+                <a href="#"><img src="img/chevron.png" alt="chevron_icon">Asimple tutorial</a>
+            </div>
+        </div>
+        <footer class="copyright">
+            <p>copyright &#169; 2001-2021 the PHP group</p>
+            <p>my PHP.net</p>
+            <p>contact</p>
+            <p>other PHP.net sites</p>
+            <p>privacy policy</p>
+            <p>view source</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Styling for index page */
+.container
+{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    min-height: 900px;
+    padding: 1em 10em;
+}
+
+a
+{
+    color: rgb(255, 108, 108);
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+h1,h2
+{
+    margin: 1em 0;
+}
+
+.message_form textarea
+{
+    width: 80%;
+    height: 8em;
+    padding: 10px;
+    display: block;
+}
+
+.message_form input[type=submit]
+{
+    padding: 8px 15px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    margin: 1em 0;
+    display: block;
+}
+
+h4
+{
+    margin: 1em 0;
+    color: brown;
+}
+
+h5
+{
+    margin: .5em 0;
+    color: blueviolet;
+}
+
+.comment_wrapper textarea
+{
+    width: 60%;
+    height: 5em;
+    padding: 10px;
+    vertical-align: bottom;
+}
+
+.comment_wrapper input[type=submit]
+{
+    padding: 8px 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.comment
+{
+    padding-left: 3em;
+}
+
+/* Styling for register page */
+.reg_wrapper, .login_wrapper
+{
+    width: 40%;
+    margin: 5em auto;
+    border: 5px solid white;
+    padding: 20px;
+}
+
+.reg_wrapper input
+{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+.login_wrapper input
+{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+.reg_wrapper input[type=submit]
+{
+    color: green;
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.login_wrapper input[type=submit]
+{
+    color: blue;
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}

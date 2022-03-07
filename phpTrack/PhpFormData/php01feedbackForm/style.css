@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    width: 300px;
+    margin: 20px auto;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+h1
+{
+    text-align: center;
+    color: aqua;
+}
+
+form label,input
+{
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    margin: 5px 0;
+}
+
+form textarea
+{
+    width: 100%;
+    height: 5rem;
+    overflow-y: scroll;
+    resize: none;
+    font-size: 15px;
+}
+
+form select
+{
+    
+    padding-right: 10px;
+}
+
+.submit
+{
+    background-color: rgb(2, 153, 2);
+    padding: 5px;
+    position: relative;
+    left: 75%;
+    border-radius: 5px;
+    color: white;
+}
+
+.section
+{
+    display: inline-block;
+    vertical-align: top;
+}
+    .section p
+    {
+        margin: 10px 0;
+        height: 30px;
+    }
+
+    .section ~ a 
+    {
+        text-decoration: none;
+        padding: 5px;
+        font-size: 15px;
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        margin: 20px 0;
+    }

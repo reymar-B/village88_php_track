@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fortune_Cookie">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Fortune Cookie</title>
+    <script>
+        
+        $( document ).ready( function() {
+            
+            $( "img" ).attr( "src", "img/cookie.jpg" );
+
+            $( "img" ).hover( function() {
+
+                $( this ).attr( "src", $( this ).attr( "data" ) );
+            
+            }, function() {
+            
+                $( this ).attr( "src", "img/cookie.jpg" );
+            
+            } );
+        
+        } )
+    
+    </script>
+</head>
+<body>
+    <h1>Fortune Cookie</h1>
+    <div class="container">
+        <img src="img/cookie.jpg" data="img/advice1.PNG">
+        <img data="img/advice2.PNG">
+        <img data="img/advice3.PNG">
+        <img data="img/advice4.PNG">
+        <img data="img/advice5.PNG">
+        <img data="img/advice6.PNG">
+        <img data="img/advice7.PNG">
+        <img data="img/advice8.PNG">
+        <img data="img/advice9.PNG">
+        <img data="img/advice10.PNG">
+        <img data="img/advice11.PNG">
+        <img data="img/advice12.PNG">
+        <img data="img/advice13.PNG">
+        <img data="img/advice14.PNG">
+        <img data="img/advice15.PNG">
+        <img data="img/advice16.PNG">
+        <img data="img/advice17.PNG">
+        <img data="img/advice18.PNG">
+        <img data="img/advice19.PNG">
+        <img data="img/advice20.PNG">
+        <img data="img/advice21.PNG">
+        <img data="img/advice22.PNG">
+        <img data="img/advice23.PNG">
+        <img data="img/advice24.PNG">
+        <img data="img/advice25.PNG">
+        <img data="img/advice26.PNG">
+        <img data="img/advice27.PNG">
+        <img data="img/advice28.PNG">
+        <img data="img/advice29.PNG">
+        <img data="img/advice30.PNG">
+    </div>
+</body>
+</html>

@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.nav_cart {
+    background-color: rgb(243, 242, 242);
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+    .nav_cart p{
+        display: inline-block;
+        padding: 20px 0;
+        font-size: 20px;
+        margin: 0 20px;
+    }
+        .nav_cart p a {
+            color: rgb(18, 179, 18);
+            text-decoration: none;
+        }
+    .nav_cart .sign_in {
+        position: absolute;
+        right: 150px;
+    }
+
+    .nav_cart img {
+        height: 62px;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+    }
+.nav_search {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    padding: 40px 0;
+}
+    .nav_search img {
+        height: 90px;
+        display: inline-block;
+        object-fit: contain;
+        object-position: center;
+        vertical-align: bottom;
+    }
+    .nav_search h1, form {
+        display: inline-block;
+    }
+    .nav_search h1 {
+        font-size: 50px;
+    }
+    .nav_search a {
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    .nav_search form input{
+        line-height: 30px;
+        font-size: 22px;
+        padding: 10px 20px;
+        width: 550px;
+        border: 1px solid lightgray;
+        
+    }
+    .nav_search form select {
+        width: 60px;
+        padding: 10px 0;
+        font-size: 22px;
+        background-color: rgb(18, 179, 18);
+        margin-left: 50px;
+    }
+.nav_bar {
+    background-image: url('img/nav-bar.png');
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+    .nav_bar a {
+        font-size: 22px;
+        padding: 40px;
+        line-height: 60px;
+        text-decoration: none;
+        color: black;
+    }
+.main {
+    width: 80%;
+    margin: auto;
+}
+    .main .banner {
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+.products {
+    text-align: center;
+}
+    .products .prod_wrapper {
+        display: inline-block;
+        width: 20%;
+        height: 18rem;
+        border: 1px solid lightgray;
+        vertical-align: top;
+        margin: 0;
+        position: relative;
+    }
+    .products .prod_wrapper .prod_img {
+        height: 120px;
+        width: 120px;
+        object-fit: contain;
+    }
+    .products .prod_wrapper .plus_img {
+        height: 24px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+footer {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(247, 247, 247);
+    width: 80%;
+    margin: 50px auto;
+    padding: 2%;
+}
+    footer .invite {
+        font-size: 18px;
+    }
+    footer form .btn_submit{
+        padding: 10px 20px;
+        font-size: 20px;
+        color: white;
+        background-color: rgb(18, 179, 18);
+        margin: 20px 0;
+    }
+    footer form .email {
+        padding: 10px 20px;
+        font-size: 20px;
+        width: 20rem;
+        border: 1px solid lightgrey;
+    }
+    footer p {
+        margin: 10px 0;
+    }
+    footer a {
+        color: black;
+        text-decoration: none;
+    }
+    footer .locator {
+        font-size: 22px;
+    }
+    footer .locator span {
+        font-size: 50px;
+        font-weight: bolder;
+        margin: 10px 10px;
+    }
+    footer img {
+        height: 5rem;
+        border-radius: 50px;
+    }

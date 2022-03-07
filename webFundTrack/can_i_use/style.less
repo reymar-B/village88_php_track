@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+:root {
+    --brown: rgb(83, 76, 62);
+    --orange: rgba(255, 102, 0, 0.829);
+    --primary: rgb(242 232 213);
+    --secondary: rgb(224 200 155);
+    --red: rgb(128 0 0);
+    --green: rgb(42 132 54);
+    --yellow: rgb(147 111 20);
+    --white: rgb(255, 255, 255);
+}
+.container {
+    background-image: url('img/crop.png');
+    background-repeat: repeat;
+    padding: 0 4rem 4rem 4rem;
+}
+.navigation {
+    line-height: 4rem;
+    position: relative;
+    a {
+        text-decoration: none;
+        background-color: var(--brown);
+        padding: 1.5rem;
+        color: var(--white);
+    }
+    .compare {
+        position: absolute;
+        right: 0px;
+    }
+}
+header p {
+    line-height: 5rem;
+    background-color: var(--orange);
+    font-size: 30px;
+    text-align: center;
+    color: var(--white);
+    margin: 2rem 0 3rem 0;
+    span {
+        padding: 0 5rem;
+        border-bottom: 1px solid var(--white);
+    }
+}
+.hashtag {
+    position: relative;
+    font-size: 24px;
+    color: var(--white);
+    background-color: var(--orange);
+    padding: 5px 10px;
+    right: 50px;
+    top: 38px;
+}
+.danger {
+    background-color: var(--red);
+}
+.success {
+    background-color: var(--green);
+}
+.warning {
+    background-color: var(--yellow);
+}
+.first_section {
+    background-color: var(--primary);
+    padding: 1rem;
+    .title {
+        font-size: 35px;
+    }
+    .about {
+        width: 50%;
+        line-height: 30px;
+        margin: 20px 0;
+        font-size: 22px;
+    }
+}
+.browser_lists{
+    padding: 1rem;
+    .row {
+        display: inline-block;
+        width: 5rem;
+        text-align: center;
+        vertical-align: top;
+        margin: 0 15px 15px 15px;
+        vertical-align: top;
+    }
+    .row .browser {
+        border-bottom: 5px solid var(--brown);
+        height: 3.8rem;
+        margin-bottom: 10px;
+    }
+    .row h6 {
+        font-size: 15px;
+        position: relative;
+    }
+    .row > p {
+        padding: 10px 0;
+        margin: 5px 0;
+        color: var(--white);
+        position: relative;
+    }
+        .row p span {
+            font-size: 10px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 2px;
+            background-color: var(--white);
+            color: black;
+        }
+}
+.second_section {
+    background-color: var(--secondary);
+    padding: 1rem;
+    font-size: 22px;
+    line-height: 30px;
+    p span {
+        background-color: var(--primary);
+        padding: 0 2px;
+    }
+}
+.filler {
+    top: 43px;
+}
+.filler02 {
+    top: 87px;
+}
+.filler03 {
+    top: 130px;
+}
+.filler04 {
+    top: 20px;
+}

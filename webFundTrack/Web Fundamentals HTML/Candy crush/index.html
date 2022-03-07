@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="candy-crush">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Candy Crush</title>
+    <script>
+        $( document ).ready( function() {
+
+            $( "img" ).click( function() {
+
+                $( this ).hide();
+
+            } )
+            
+            $( "#reset" ).click( function() {
+
+                $( "img" ).show();
+
+            } )
+
+        } )
+    </script>
+</head>
+<body>
+    <div class="container">
+        <img src="img/multicolor_candy.png" alt="multicolor_candy">
+        <img src="img/orange_candy.png" alt="orange_candy">
+        <img src="img/red_candy.png" alt="red_candy">
+        <img src="img/yellow_candy.png" alt="yellow_candy">
+        <img src="img/multicolor_candy.png" alt="multicolor_candy">
+        <img src="img/orange_candy.png" alt="orange_candy">
+        <img src="img/red_candy.png" alt="red_candy">
+        <img src="img/yellow_candy.png" alt="yellow_candy">
+        <img src="img/multicolor_candy.png" alt="multicolor_candy">
+        <img src="img/orange_candy.png" alt="orange_candy">
+        <img src="img/red_candy.png" alt="red_candy">
+        <img src="img/yellow_candy.png" alt="yellow_candy">
+        <img src="img/multicolor_candy.png" alt="multicolor_candy">
+        <img src="img/orange_candy.png" alt="orange_candy">
+        <img src="img/red_candy.png" alt="red_candy">
+        <img src="img/yellow_candy.png" alt="yellow_candy">
+    </div>
+    <button id="reset">Reset</button>
+</body>
+</html>

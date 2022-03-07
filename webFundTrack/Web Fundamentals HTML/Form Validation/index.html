@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="form_validation_jquery">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <title>Form Validation</title>
+    <script>
+        $( document ).ready( function() {
+
+            $("#date").datepicker();
+
+            var dateNow = $.datepicker.formatDate('mm/dd/yy', new Date());
+
+            $( "form" ).on( "submit", function() {
+
+                let firstName = $( "#first_name" ).val();
+                let lastName = $( "#last_name" ).val();
+                let date = $( "#date" ).val();
+                
+                if ( firstName == "" ) {
+
+                    alert( 'first name must not be empty!' );
+
+                } else if ( lastName == "" ) {
+
+                    alert( 'last name must not be empty!' );
+                
+                } else if ( date == "" ) {
+
+                    alert( 'date must not be empty!' );
+
+                } else if ( date <= dateNow ) {
+
+                    alert( 'enter a valid date!' );
+
+                } else {
+
+                    alert( 'success name: ' + firstName + ' ' + lastName + ' ' + 'date:' + date + '');
+
+                    $( "form" ).trigger( "reset" );
+
+                }
+
+            } )
+        
+        } )
+    </script>
+</head>
+<body>
+    <style>
+        .wrapper {
+            width: 50%;
+            margin: 30px auto;
+        }
+        form label{
+            display: block;
+            margin: 10px;
+            font-size: 22px;
+        }
+        input {
+            font-size: 22px;
+        }
+    </style>
+    <div class="wrapper">
+        <h1>Scheduling Form for Vaccination</h1>
+        <form action="#">
+            <label>First Name:
+                <input type="text" id="first_name">
+            </label>
+            <label>Last Name:
+                <input type="text" id="last_name">
+            </label>
+            <label>Date:
+                <input type="text" id="date">
+            </label>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    width: 25em;
+    margin: 10em auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+    .container label
+    {
+        display: block;
+        margin: 1rem 0;
+        position: relative;
+        padding: 5px;
+    }
+
+    .container label input
+    {
+        position: absolute;
+        right: 0;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    .container .submit
+    {
+        padding: 5px 10px;
+        background-color: blue;
+        color: white;
+    }
+
+    .container a
+    {
+        text-decoration: none;
+        background-color: green;
+        color: white;
+        padding: 5px;
+    }
+
+.reset_container
+{
+    width: 25em;
+    margin: 10em auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+    .reset_container label
+    {
+        display: block;
+        margin: 1rem 0;
+        position: relative;
+        padding: 5px;
+    }
+
+    .reset_container label input
+    {
+        position: absolute;
+        right: 0;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    .reset_container .reset
+    {
+        padding: 5px 10px;
+        background-color: green;
+        color: white;
+    }
+
+    .reset_container a
+    {
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        padding: 5px;
+    }
+
+.error
+{
+    margin: 1em 0;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.success
+{
+    margin: 1em 0;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}

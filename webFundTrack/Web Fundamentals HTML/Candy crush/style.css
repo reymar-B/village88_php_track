@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container {
+    background-image: url('img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    margin: 1% auto;
+    padding: 30px;
+}
+img {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.158);
+    padding: 10px;
+    object-fit: contain;
+    cursor: pointer;
+}
+#reset {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(0, 38, 255), rgb(62, 114, 255));
+    color: white;
+    border-radius: 5px;
+    margin: 20px 500px;
+    border: 1px solid rgb(22, 22, 22);
+}

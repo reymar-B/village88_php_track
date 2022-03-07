@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    width: 25rem;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(141, 63, 63);
+    padding: 20px;
+    border-radius: 20px;
+    color: yellow;
+    position: relative;
+}
+
+form
+{
+    width: 100%;
+}
+    
+    form label,input
+    {
+        margin: 20px auto;
+        display: block;
+        font-size: 20px;
+        font-weight: bolder;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+.no_display
+{
+    display: none;
+}
+
+.show_display
+{
+    display: block;
+}
+
+.coupon
+{
+    background-color: beige;
+    border: 5px dashed black;
+    border-radius: 20px;
+    color: black;
+    width: 20rem;
+    margin: 20px auto;
+    padding: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top: 35%;
+    right: 30px;
+}
+
+    .coupon a
+    {
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: red;
+        margin: 50px 0;
+        color: white;
+    }
+
+    .coupon a + a
+    {
+        background-color: green;
+    }
+
+    .coupon p
+    {
+        margin: 10px 0;
+    }
+
+.customer span
+{
+    color: blue;
+    font-size: 24px;
+}
+
+.random span
+{
+    font-size: 2.5rem;
+    color: rgb(0, 148, 185);
+}

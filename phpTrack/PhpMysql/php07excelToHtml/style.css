@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* DISPLAY RECORDS */
+.container
+{
+    width: 70%;
+    margin: auto;
+}
+
+table
+{
+    width: 100%;
+}
+table tr th
+{
+    font-size: 20px;
+    padding: 10px;
+}
+
+table tr td
+{
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+h1
+{
+    margin: .5em 0;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+}
+.wrapper
+{
+    height: 35em;
+    overflow-y: scroll;
+    margin-bottom: 1em;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.container a
+{
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    display: inline-block;
+    width: 1.5em;
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+
+span .return
+{
+    width: 5em;
+    background-color: rgb(155, 44, 44);
+    color: white;
+}
+
+/* FILE UPLOAD */
+.upload_wrapper
+{
+    width: 40em;
+    height: 30em;
+    margin: 2em auto;
+    border-radius: 5px;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+    .upload_wrapper input[type=submit]
+    {
+        border-radius: 5px;
+        background-color: green;
+        color: white;
+        margin-left: 10%;
+    }
+
+    .upload_wrapper input
+    {
+        padding: .2em .4em;
+        font-size: 20px;
+    }
+    
+    .upload_wrapper input[type=file]::file-selector-button
+    {
+        padding: .2em .4em;
+        border-radius: 5px;
+        background-color: blue;
+        color: white;
+    }
+    
+    .upload_wrapper form p
+    {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+
+    .upload_wrapper h2
+    {
+        margin: 1em 0;
+    }
+
+.submit_wrapper a
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.submit_wrapper ol li
+{
+    margin: 0 1em;
+    font-weight: bold;
+}

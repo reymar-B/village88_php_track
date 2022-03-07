@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+}
+#logo{
+    background-color: #B97A57;
+    height: 8rem;
+}
+#wrapper{
+    background-color: #FFD9B7;
+    padding: 5%;
+}
+#navigation{
+    background-color: #FF7F27;
+    height: 8rem;
+}
+#main_content{
+    background-color: #880015;
+    padding: 5%;
+    margin: 2% 0;
+}
+#about{
+    background-color: #FFAEC9;
+    height: 12rem;
+}
+
+.sponsors{
+    background-color: #FFFF88;
+    height: 4rem;
+    margin: 1% 0;
+}
+.col {
+    display: inline-block;
+    vertical-align: top;
+}
+.sm-1 {
+    width: calc(100% / 12 * 1);
+}
+.sm-2 {
+    width: calc(100% / 12 * 2);
+}
+.sm-3 {
+    width: calc(100% / 12 * 3);
+}
+.sm-4 {
+    width: calc(100% / 12 * 4);
+}
+.sm-5{
+    width: calc(100% / 12 * 5);
+}
+.sm-6{
+    width: calc(100% / 12 * 6);
+}
+.sm-7{
+    width: calc(100% / 12 * 7);
+}
+.sm-9{
+    width: calc(100% / 12 * 9);
+}
+.sm-12{
+    width: 100%;
+}
+@media only screen and (min-width: 481px) {
+    .md-1 {
+        width: calc(100% / 12 * 1);
+    }
+    .md-2 {
+        width: calc(100% / 12 * 2);
+    }
+    .md-3 {
+        width: calc(100% / 12 * 3);
+    }
+    .md-4 {
+        width: calc(100% / 12 * 4);
+    }
+    .md-5{
+        width: calc(100% / 12 * 5);
+    }
+    .md-6{
+        width: calc(100% / 12 * 6);
+    }
+    .md-7{
+        width: calc(100% / 12 * 7);
+    }
+    .md-9{
+        width: calc(100% / 12 * 9);
+    }
+    .md-12{
+        width: 100%;
+    }
+
+    #navigation {
+        position: relative;
+        left: 4%;
+        padding: 0 2%;
+    }
+    .sponsors{
+        padding: 0 2%;
+        margin: 1% 2%;
+    }
+}
+@media only screen and (min-width: 1023px) {
+    .lg-1 {
+        width: calc(100% / 12 * 1);
+    }
+    .lg-2 {
+        width: calc(100% / 12 * 2);
+    }
+    .lg-3 {
+        width: calc(100% / 12 * 3);
+    }
+    .lg-4 {
+        width: calc(100% / 12 * 4);
+    }
+    .lg-5{
+        width: calc(100% / 12 * 5);
+    }
+    .lg-6{
+        width: calc(100% / 12 * 6);
+    }
+    .lg-7{
+        width: calc(100% / 12 * 7);
+    }
+    .lg-9{
+        width: calc(100% / 12 * 9);
+    }
+    .lg-12{
+        width: 100%;
+    }
+    #advertisement{
+        background-color: #C8BFE7;
+        height: 10rem;
+        margin-left: 4%;
+    }
+}

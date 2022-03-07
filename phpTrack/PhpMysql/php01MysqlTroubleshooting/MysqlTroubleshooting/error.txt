@@ -1,0 +1,12 @@
+When password is incorrect: Failed to connect to MySQL: (1045) Access denied for user 'root'@'localhost' (using password: YES)
+
+I,m using no password that's why this error comes out.
+
+When database name is incorrect is incorrect: Failed to connect to MySQL: (1049) Unknown database 'xxxx'.
+
+To solve this problem correct the data base name.
+
+Failed to connect to MySQL: (2002) php_network_getaddresses: getaddrinfo failed: No such host is known.
+
+This error comes out when you don't include the defined DB host name in your mysqli() function.
+

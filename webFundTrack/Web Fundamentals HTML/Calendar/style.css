@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 1060px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+.row div{
+    display: inline-block;
+    border: 3px solid black;
+    margin: 10px;
+    width: 116px;
+    text-align: center;
+    vertical-align:bottom;
+    line-height: 50px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.row{
+    padding: 0px 20px 0px 20px;
+}
+img{
+    height: 100px;
+    margin: 32px;
+}
+
+span{
+    font-size: 45px;
+    vertical-align: 51px;
+    margin: 147px;
+    font-weight: bold;
+    font-family: system-ui;
+}
+.days div{
+    display: inline-block;
+    border: 3px solid black;
+    margin: 10px;
+    width: 116px;
+    text-align: center;
+    vertical-align:bottom;
+    line-height: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.days{
+    padding-left: 18px;
+}
+.no_date{
+    background-color: rgb(207, 207, 207);
+    border: transparent;
+    margin: 13px;
+}
+.sun{
+    background-color: rgb(86, 127, 240);
+}
+.sat{
+    background-color: rgb(101, 207, 101);
+}

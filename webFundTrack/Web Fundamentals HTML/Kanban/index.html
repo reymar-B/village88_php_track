@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="Kanban_project_using_some_jqueryUI_templates">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <title>Kanban</title>
+    <script>
+        $( document ).ready( function() {
+
+            $( "#droppable" ).droppable({
+            
+                drop: function( event, ui ) { $( this )
+                    
+                } 
+            
+            });
+
+            $( "#to_do" ).on( "click", function( e ) {
+
+                $( "#todo_list" ).append( "<div class='draggable'><p>todo's</p><textarea></textarea></div>" );
+                
+                $( "#todo_list .draggable" ).draggable(); 
+                
+            } )
+
+        } )
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Kanban</h1>
+        <div id="todo_list">
+            <h2 id="to_do">To do</h2>
+        </div>
+        <div class="in-progress">
+            <h2>In-Progress</h2>
+            <div id="droppable"></div>
+        </div>
+        <div class="approval">
+            <h2>For Approval</h2>
+            <div id="droppable"></div>
+        </div>
+        <div class="test">
+            <h2>Testing</h2>
+            <div id="droppable"></div>
+        </div>
+        <div class="done">
+            <h2>Done</h2>
+            <div id="droppable"></div>
+        </div>
+    </div>
+</body>
+</html>

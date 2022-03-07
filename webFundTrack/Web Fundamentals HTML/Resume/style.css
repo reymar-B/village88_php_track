@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;    
+}
+h1,h4,h5 {
+    text-transform: uppercase;
+}
+.container{
+    width: 970px;
+    margin: 0px auto;
+}
+.profile {
+    margin: 30px;
+    font-family: system-ui;
+}
+    .profile div {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .profile div h1 {
+        font-size: 65px;
+        width: 604px;
+        color:rgb(45 71 103);
+        margin: 0px;
+        padding: 20px 0px;
+    }
+    .profile div h5 {
+        font-size: 20px;
+        margin: 0px;
+        padding: 10px 0px 15px 0px;
+        border-bottom: 5px solid rgb(45 71 103);
+    }
+    .profile div P {
+        font-size: 18px;
+    }
+    .profile p span{
+        font-size: 40px;
+    }
+.profile_img {
+    height: 255px;
+    width: 240px;
+    text-align: center;
+}
+.main {
+    padding: 20px;
+}
+.about_me {
+    background-color: rgb(242 242 242 / 73%);
+    padding: 5px 30px 10px 30px;
+}
+    .about_me h4 {
+        font-size: 26px;
+        text-align: center;
+        margin: 25px 0;
+    }
+    .about_me p {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .portfolio .technology{
+        display: inline-block;
+        width: 450px;
+        vertical-align: top;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .portfolio .projects{
+        display: inline-block;
+        width: 410px;
+        vertical-align: top;
+        padding: 10px 20px 0px 20px;
+    }
+.portfolio {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+    .technology img {
+        height: 65px;
+        margin: 8px;
+        border-radius: 50px;
+    }
+.portfolio h4{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+.projects {
+    background-color: rgb(242 242 242 / 73%);
+}
+    .projects h5{
+        font-size: 20px;
+        padding-top: 14px;
+    }
+    .projects p{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+.prog_language {
+    font-size: 20px;
+    padding-left: 15px;
+    margin-bottom: 13px;
+}
+.social_media {
+    width: 570px;
+    margin: 0px auto;
+    padding: 20px 0;
+}
+    .social_media img{
+        height: 30px;
+        margin: 0 10px;
+        vertical-align: bottom;
+    }
+    .social_media a{
+        font-size: 18px;
+        color: black;
+        vertical-align: middle;
+    }

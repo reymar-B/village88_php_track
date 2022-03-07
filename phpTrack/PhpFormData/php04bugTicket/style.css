@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    max-width: 38em;
+    background-color: rgb(0, 182, 121);
+    margin: 5em auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form
+{
+    position: relative;
+    width: 33em;
+    margin: auto;
+}
+
+    form div input,textarea,label
+    {
+        font-weight: bold;
+        padding: 5px 10px;
+        display: block;
+    }
+
+    form div
+    {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+.is_error
+{
+    color: rgb(255, 251, 0);
+    font-size: 24px;
+    font-weight: 900;
+    margin: 10px 20px;
+}
+
+.is_success
+{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 900;
+    margin: 10px 20px;
+}

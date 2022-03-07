@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.draggable { 
+    width: 100%;
+    float: left; 
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+    background-color: goldenrod;
+    position: absolute;
+}
+#droppable { 
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; 
+    float: left; 
+    margin: 10px; 
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+    .container > div {
+        display: inline-block;
+        vertical-align: top;
+        width: 18%;
+        border: 2px solid lightgray;
+        height: 600px;
+    }
+        .container div > h2 {
+            border: 5px solid lightgray;
+        }
+    .container #to_do {
+        cursor: pointer;
+    }
+textarea {
+    font-size: 18px;
+    padding: 10px;
+    width: 190px;
+    font-weight: bold;
+}
+#todo_list {
+    position: relative;
+}
+    #todo_list h2 {
+        background-color: goldenrod;
+    }
+.in-progress h2 {
+    background-color: red;
+}
+.approval h2 {
+    background-color: royalblue;
+}
+.test h2 {
+    background-color: green;
+}
+.done h2 {
+    background-color: cyan;
+}

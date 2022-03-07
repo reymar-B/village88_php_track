@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Background_Chooser">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Background Chooser</title>
+    <script>
+        
+        $(document).ready(function(){
+        
+            $( "#container" ).click(function(){
+        
+                $( this ).css( "background-image",  "url()" );
+
+                $( this ).children().children().css( { border: "none" } );
+        
+            })
+        
+            $( ".mini_boxes" ).click(function(event){
+
+                $( "img" ).css( { border: "none" } );
+              
+                event.stopPropagation();
+
+                $( this ).parent().parent().css( { backgroundImage: "url(" + $( this ).attr( "src" ) + " )"} );
+
+                $( this ).css( { border: "5px solid yellow" } );
+
+            })
+        
+        });
+
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+          #container {
+              background-color: lightgray;
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+              padding: 10px;
+              height: 100vh;
+          }
+          .mini_boxes {
+              display: block;
+              width: 200px;
+              height: 100px;
+              margin: 10px 0 15px 10px;
+              object-fit: coover;
+              cursor: pointer;
+          }
+          h1 {
+              text-align: center;
+              margin: 30px;
+              font-family: Verdana;
+              color: rgb(255, 131, 127);
+          }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Background Chooser</h1>
+        <div id="main_box">
+            <img src="img/foodpic1.jpg" class="mini_boxes">
+            <img src="img/foodpic2.jpg" class="mini_boxes">
+            <img src="img/foodpic3.jpg" class="mini_boxes">
+            <img src="img/foodpic9.jpg" class="mini_boxes">
+        </div>
+    </div>
+</body>
+</html>
