@@ -1,0 +1,3 @@
+[submodule "Pacman-Game"]
+	path = Pacman-Game
+	url = https://github.com/reymar-B/Pacman-Game.git
